@@ -13,7 +13,6 @@ Elklang compiles to C, JavaScript and possibly other languages.
 
 ## About the language
 
-Fibonacci
 ```fsharp
 (* Simple memoized Fibonacci *)
 memozied fun fibonacci (n: Int) -> Int
