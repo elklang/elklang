@@ -1,4 +1,4 @@
-<img src="Graphical Assets/logo.png" height=250px>
+<img src="Graphical Assets/logo_pink.png" height=250px>
 
 # Elklang
 
