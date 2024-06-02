@@ -1,10 +1,10 @@
-# Elklang
+<img src="Graphical Assets/logo.png" height=250px>
 
-<img src="notofontmoose.png" height=120px>
+# Elklang
 
 <img src="https://img.shields.io/badge/release-v0.0.0-lightgray.svg"> <img src="https://img.shields.io/badge/license-_Apache_2.0-green">
 
-A programming language designed to be small and easy to learn, robust, rigidly typed, concurrent (Erlang like) and immutable. Elklang is garbage collected. Elklang supports optional memoization. Elklang places focus on string manipulation, to the grapheme level, via UTF-8. Elklang supports arbitrarily big integers. Mathematical speed in Elklang is not a priority. Stability and concurrency are. Elklang enforces a singular coding style and complaints if it's not followed. Elklang supports FFI with the C ABI.
+A functional programming language designed to be small and easy to learn, robust, rigidly typed, concurrent (Erlang like) and immutable. Elklang is garbage collected. Elklang supports optional memoization. Elklang places focus on string manipulation, to the grapheme level, via UTF-8. Elklang supports arbitrarily big integers. Mathematical speed in Elklang is not a priority. Stability and concurrency are. Elklang enforces a singular coding style and complaints if it's not followed. Elklang supports FFI with the C ABI.
 
 Returns are explicit in Elklang.
 
