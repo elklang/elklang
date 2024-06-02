@@ -9,7 +9,7 @@
 
 Returns are explicit in Elklang.
 
-Elklang compiles to C, JavaScript and possible other languages.
+Elklang compiles to C, JavaScript and possibly other languages.
 
 ## About the language
 
