@@ -1,0 +1,51 @@
+fun main() -> Int {
+    let x: Int = 10
+    let point: <Float, Float> = point(4.0, 89.0)
+    print "The result is: " fibonacci(x)
+}
+
+fun fibonacci (n: Int) -> Int {
+    if n <= 2 {
+        return 1
+    } else {
+        return n + fibonacci(n - 1)
+    }
+}
+
+infix memoized fun pow (n: Int, power: Int) -> Int {
+(* Elklang supports a wide range of characters for
+function names *)
+    if n <= 0 {
+        return 1
+    } else {
+        return n * (n pow power - 1)
+        (* Infix operators are always resolved last *)
+    }
+}
+
+(* Recursive calls en una función que no devuelve nada deberían ser gotos *)
+
+type Vector3 (
+    x: Float,
+    y: Float,
+    z: Float,
+)
+
+fun point (x: Float, y: Float) -> <Float, Float>
+{
+    return <x, y>
+}
+
+infix fun ✖ (vector: Vector3, scalar: Float) -> Vector3 {
+    (* Any non-ascii characters and a-z, A-Z, 0-9, _ characters are valid for identifiers.*)
+    return Vector3(vector.x * scalar, vector.y * scalar, vector.z * scalar)
+}
+
+fun multiplyAVector() -> nothing {
+    print Vector3(0, 0, 3) ✖ 2
+}
+
+fun list📂 (dir_name: String) -> [String] {
+    (* Do stuff *)
+    return ["a", "b", "c"]
+}
