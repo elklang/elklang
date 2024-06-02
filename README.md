@@ -18,7 +18,7 @@ Elklang compiles to C, JavaScript and possible other languages.
 
 I am still designing the language to look and feel the way we want it to. I'll add a roadmap here later.
 
-## Contributing to Noit
+## Contributing to Elklang
 
 Once I finish designing the language, a note about contributing will be added here.
 That said, if you like what I'm making here, feel free to drop an issue or something to get in touch with me!
