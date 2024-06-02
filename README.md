@@ -16,11 +16,13 @@ Elklang compiles to C, JavaScript and possible other languages.
 Fibonacci
 ```fsharp
 (* Simple memoized Fibonacci *)
-memozied fun fibonacci (n: Int) -> Int {
+memozied fun fibonacci (n: Int) -> Int
+{
     return 1 if n <= 2 else n + fibonacci(n - 1)
 }
 
-fun main() -> nothing {
+fun main -> Nothing
+{
     let x: Int = 50
     print("The " x "th Fibonacci number is: " fibonacci(x))
 }
